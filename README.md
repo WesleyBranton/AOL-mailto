@@ -13,4 +13,4 @@ To develop and test the extension, you need to open the "about:debugging" page i
 Further documentation about developing Firefox extensions can be found [here](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension).
 
 ## Release Notes
-### Version 1.0
+Release notes can be found on [this GitHub repository](https://github.com/WesleyBranton/AOL-mailto/releases) or [the Firefox add-ons listing](https://addons.mozilla.org/firefox/addon/aol-mailto/versions/).
