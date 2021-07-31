@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "AOL mailto",
-    "version": "1.0",
+    "version": "1.0.1",
     "description": "Add AOL Mail as a default email provider for all mailto links.",
     "author": "Wesley Branton",
 
@@ -28,6 +28,6 @@
     "protocol_handlers": [{
         "protocol": "mailto",
         "name": "AOL Mail",
-        "uriTemplate": "https://mail.aol.com/webmail-std/ComposeMessage?to=%s"
+        "uriTemplate": "https://mail.aol.com/webmail-std/en-us/ComposeMessage?to=%s"
     }]
 }
