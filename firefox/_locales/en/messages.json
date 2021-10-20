@@ -1,0 +1,8 @@
+{
+    "extensionName": {
+        "message": "AOL mailto"
+    },
+    "extensionDescription": {
+        "message": "Add AOL Mail as a default email provider for all mailto links."
+    }
+}
