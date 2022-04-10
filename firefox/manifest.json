@@ -26,9 +26,20 @@
         }
     },
 
+    "background": {
+        "scripts": ["background.js"]
+    },
+
     "protocol_handlers": [{
         "protocol": "mailto",
         "name": "AOL Mail",
-        "uriTemplate": "https://mail.aol.com/webmail-std/en-us/ComposeMessage?to=%s"
-    }]
+        "uriTemplate": "https://mail.aol.com/send?to=%s"
+    }],
+
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "https://mail.aol.com/send?to=*",
+        "https://mail.aol.com/webmail-std/*/ComposeMessage?to=*"
+    ]
 }
